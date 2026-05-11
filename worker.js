@@ -348,7 +348,7 @@ export default {
     tg.expand();
     const user = tg.initDataUnsafe?.user || { id: '123456', first_name: 'Пользователь', username: 'guest' };
     const userId = user.id.toString();
-    const botUsername = 'ТУТ_ЮЗЕРНЕЙМ_ТВОЕГО_БОТА'; // Без @
+    const botUsername = 'advertising_fees_bot'; // Без @
 
     // Реферальный параметр из start_param
     const startParam = tg.initDataUnsafe?.start_param || null;
